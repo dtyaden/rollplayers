@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.index-bg{
+    color: rgb(211, 177, 104);
+    background-color: rgb(40, 31, 48);
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.mat-nav-list .mat-list-item{
+    color: rgb(247, 247, 247)
+}
+
+.mat-nav-list {
+    background-color: rgb(172, 121, 218);
+    color: white
+}
+
+.mat-app-background{
+    background-color: rgb(43, 33, 53);
+}
+
+.mat-drawer-container{
+    background-color: rgb(86, 23, 145);
+}
+
+.mat-sidenav{
+    background-color: rgb(86, 23, 145);
+}
+
+.mat-card{
+    background: #59315e;
+    color: rgb(248, 248, 248);
+}
+
+.mat-card-subtitle{
+    color: inherit
+}
+
+.mat-app-background{
+    background-color: black;
+}
+
+.card-spacing{
+    background: black;
+}

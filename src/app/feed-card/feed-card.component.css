@@ -1,0 +1,13 @@
+.thumbnail{
+    max-width: 100px;
+    max-Height: 100px;
+}
+
+.mat-app-background{
+    background-color: black;
+}
+
+.ng-star-inserted{
+    background: black;
+    background-color: black;
+}
