@@ -1,0 +1,5 @@
+
+<mat-basic-audio-player [audioUrl]="feed.attachments[0].url" title={{feed.title}} [displayVolumeControls]="true"
+  [displayTitle]="false" #player></mat-basic-audio-player>
+<mat-slider [value]="50" (change)="onChange($event, player)">
+</mat-slider>

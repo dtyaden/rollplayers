@@ -1,13 +1,22 @@
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .thumbnail{
     max-width: 100px;
     max-Height: 100px;
 }
-
-.mat-app-background{
+/* .mat-app-background{
     background-color: black;
-}
+} */
 
-.ng-star-inserted{
+/* .ng-star-inserted{
     background: black;
     background-color: black;
+} */
+
+.dingo-card{
+    background: #37153b;
+    color: #ffffff;
 }

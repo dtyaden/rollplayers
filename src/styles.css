@@ -3,7 +3,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.index-bg{
+/* .index-bg{
     color: rgb(211, 177, 104);
     background-color: rgb(40, 31, 48);
     min-width: 100px;
@@ -46,4 +46,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .card-spacing{
     background: black;
+} */
+
+/* .dingo-theme{
+    background: #371041;
+    color: #ffffff;
+}*/
+
+.dingo-button{
+    background: #a989b1;
+    color: #000000;
+    padding-right: 10px;
 }
+
+ .dingo-span{
+    background-color: #a989b1;
+    padding: 10px;
+} 

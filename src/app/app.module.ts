@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
@@ -53,13 +52,22 @@ import {MatTreeModule} from '@angular/material/tree';
 import { StripHtmlTagsPipe } from './pipe/strip-html-tags.pipe';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { NavigationComponent } from './navigation/navigation.component';
+import { SliderComponent } from './slider/slider.component';
+import { MatDingoPlayerComponent } from './mat-dingo-player/mat-dingo-player.component';
+import { AboutComponent } from './about/about.component';
+import { RootComponent } from './root/root.component';
+import { ListenComponent } from './listen/listen.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     FeedCardComponent,
     StripHtmlTagsPipe,
-    NavigationComponent
+    NavigationComponent,
+    SliderComponent,
+    MatDingoPlayerComponent,
+    AboutComponent,
+    RootComponent,
+    ListenComponent
   ],
   imports: [
     BrowserModule,
@@ -120,6 +128,6 @@ import { NavigationComponent } from './navigation/navigation.component';
     NgxAudioPlayerModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [RootComponent]
 })
 export class AppModule { }

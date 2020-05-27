@@ -10,3 +10,4 @@ export interface Feed {
     author: string;
     content_html: string;
 }
+  

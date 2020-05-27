@@ -17,8 +17,8 @@ export class FeedService {
 
    getFeedContent(url: string): Observable<FeedCollection> {
     console.log("feed content")
-    return this.http.get<FeedCollection>(url)
-    .pipe(map(res => res))
+    return this.http.get<any>(url)
+    .pipe(map(res => new FeedCollection(res)))
    }
 
    getFeedItem(feed: FeedCollection): FeedCollection{

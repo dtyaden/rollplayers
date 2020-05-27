@@ -1,0 +1,90 @@
+{
+   "version":"https://jsonfeed.org/version/1",
+   "title":"Roll Players",
+   "description":"Our silly group explores Dungeon World and other games from Powered by the Apocalypse! If you're looking for alternatives to Dungeons and Dragons, we think you'll love to come along for this fun and Comedic ride as we get acquainted with more role-playing games! ",
+   "icon":"https://storage.pinecast.net/podcasts/covers/9eb49d25-704d-497a-b8a8-e30d04be26bc/Roll_Players_Logo_3.jpg",
+   "author":{
+      "name":"Atom "
+   },
+   "feed_url":"https://pinecast.com/feed/roll-players",
+   "items":[
+      {
+         "id":"fb9260d0-64f0-44a1-bdb7-ead1389b440f",
+         "title":"S1E1 - Dungeon World: Session Zero",
+         "content_html":"<p>The Debut episode of Roll Players! Today's episode stars Amy, Justin and David with Game Master, Adam!\nWe see the formation and bonding of 3 vagrant adventurers.  You'll meet Dim Rundrig, Drunken Dwarven Fighter. You'll encounter Zinkz, the not-so-stealthy Halfling Thief.  Finally, you'll meet Jack, a literal Salamander with the power to conjure deadly flaming broom handles!  </p>\n",
+         "date_published":"2020-04-20T01:06:47Z",
+         "attachments":[
+            {
+               "url":"https://pinecast.com/listen/fb9260d0-64f0-44a1-bdb7-ead1389b440f.mp3?source=jsonfeed&ext=asset.mp3",
+               "mime_type":"audio/mp3",
+               "size_in_bytes":76694815,
+               "duration_in_seconds":5270
+            }
+         ],
+         "url":"https://roll-players.pinecast.co/episode/fb9260d064f044a1/dungeon-world-session-zero",
+         "image":"https://storage.pinecast.net/podcasts/covers/28db790c-83d0-4146-8738-9fcaf766fe66/reformatted.jpg"
+      },
+      {
+         "id":"a996d319-7cec-4d11-b010-b3a67bbd04c9",
+         "title":"S1E2 - Dungeon World: Sterilizing Atlanta",
+         "content_html":"<p>Dungeon World sure can get weird, huh?  In this episode, Zinkz, Dim and Jack find themselves caught up in a plot riddled with holes when they come up against more members of the Pepcee Cartel.  Do you like Bar Fights, Assassination plots, and stinky sewers?  Well you're in luck, because this group, not only encounters all three, but they manage to inspire a nation... or at least one dwarf to start a revolution.  Did I mention they accidentally come up with a powerful new group name? </p>\n",
+         "date_published":"2020-04-29T16:00:55Z",
+         "attachments":[
+            {
+               "url":"https://pinecast.com/listen/a996d319-7cec-4d11-b010-b3a67bbd04c9.mp3?source=jsonfeed&ext=asset.mp3",
+               "mime_type":"audio/mpeg",
+               "size_in_bytes":70923215,
+               "duration_in_seconds":4965
+            }
+         ],
+         "url":"https://roll-players.pinecast.co/episode/a996d3197cec4d11/dungeon-world-sterilizing-atlanta"
+      },
+      {
+         "id":"e9101517-0f34-4f97-8f50-dcaa60971fcb",
+         "title":"S1E3 - Dungeon World: Orc-estra of Flame",
+         "content_html":"<p>The Sterilizers finally leave the bar (after visiting it one more time) to set off into the Brandleberri Woods.  Stay tuned for bad rolls, lots of fire, heaps of blood, more fire, Orcs and Goblins with a side of Frustration! Oh and Dim might die... So there's that!</p>\n",
+         "date_published":"2020-05-06T07:00:03Z",
+         "attachments":[
+            {
+               "url":"https://pinecast.com/listen/e9101517-0f34-4f97-8f50-dcaa60971fcb.mp3?source=jsonfeed&ext=asset.mp3",
+               "mime_type":"audio/mpeg",
+               "size_in_bytes":62628433,
+               "duration_in_seconds":4645
+            }
+         ],
+         "url":"https://roll-players.pinecast.co/episode/e91015170f344f97/dungeon-world-orc-estra-of-flame"
+      },
+      {
+         "id":"e1453925-0caf-482e-bea8-5c18903e2152",
+         "title":"S1E4 - Dungeon World: Carpe Dayum!",
+         "content_html":"<p>The Sterilizers entering into their first real test of strength and survival! Dim faces off against Shariq, the deadly and skilled leader of the Axes. Zinkz finds that she's not a fan of an honorable duel, and Jack seems to have a natural talent for acquiring new followers.  </p>\n",
+         "date_published":"2020-05-13T07:01:49Z",
+         "attachments":[
+            {
+               "url":"https://pinecast.com/listen/e1453925-0caf-482e-bea8-5c18903e2152.mp3?source=jsonfeed&ext=asset.mp3",
+               "mime_type":"audio/mpeg",
+               "size_in_bytes":61671905,
+               "duration_in_seconds":4205
+            }
+         ],
+         "url":"https://roll-players.pinecast.co/episode/e14539250caf482e/dungeon-world-carpe-dayum-",
+         "image":"https://storage.pinecast.net/podcasts/ebc111dc-b051-4261-9a04-00a0acf4e3cf/artwork/451f64ea-27a5-4075-8883-faad955201f7/Roll_Player_family_photo.jpg"
+      },
+      {
+         "id":"75cf9823-39d5-4f2d-8d05-3c63276a0baf",
+         "title":"S1E5 - Dungeon World: Kitties and Coffee",
+         "content_html":"<p>The Sterilizers somewhat successfully interrogate Gric about Shariq and her deal with the Pepcee Cartel. Now, our \"heroes\" set their sights on a deadly and secret brew of coffee. With the forest in flames, corpses piling up, and Shariq holding the cards, we find out if the Sterilizers can keep it together to save Atlanta!... Spoilers: They spend more time assisting their local businesses with repair projects while discussing their housing situation... This game is weird. </p>\n",
+         "date_published":"2020-05-20T07:00:08Z",
+         "attachments":[
+            {
+               "url":"https://pinecast.com/listen/75cf9823-39d5-4f2d-8d05-3c63276a0baf.mp3?source=jsonfeed&ext=asset.mp3",
+               "mime_type":"audio/mpeg",
+               "size_in_bytes":67350972,
+               "duration_in_seconds":4447
+            }
+         ],
+         "url":"https://roll-players.pinecast.co/episode/75cf982339d54f2d/dungeon-world-kitties-and-coffee"
+      }
+   ],
+   "home_page_url":"https://roll-players.pinecast.co"
+}

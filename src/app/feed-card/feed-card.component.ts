@@ -10,15 +10,10 @@ export class FeedCardComponent implements OnInit {
 
   @Input() feed: Feed;
 
-  msbapTitle = 'Audio Title';
-  msbapAudioUrl = 'Link to audio URL';   
-     
-  msbapDisplayTitle = false; 
-  msbapDisplayVolumeControls = true;  
-
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
 }

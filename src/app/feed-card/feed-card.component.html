@@ -1,21 +1,21 @@
-<mat-card>
-    <mat-card-title-group>
-        <mat-card-title>
-            <div>
-                {{feed.title}}
-            </div>
-        </mat-card-title>
-        <mat-card-subtitle>
-            {{feed.author}} - {{feed.pubDate | date: 'dd-MM-yyyy'}}
-        </mat-card-subtitle>
-        <img mat-card-md-image src={{feed.image}}>
-    </mat-card-title-group>
-<mat-card-content>
-    {{feed.content_html}}
+<!-- <div class="mat-app-background basic-container dingo-span"> -->
+    <mat-card class="dingo-card">
+        <mat-card-title-group>
+            <mat-card-title>
+                <div>
+                    {{feed.title}}
+                </div>
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{feed.author}} - {{feed.pubDate | date: 'dd-MM-yyyy'}}
+            </mat-card-subtitle>
+            <img mat-card-md-image src={{feed.image}}>
+        </mat-card-title-group>
+        <mat-card-content>
+            {{feed.content_html}}
+            <p></p>
+            <app-mat-dingo-player [feed]="feed"></app-mat-dingo-player>
+        </mat-card-content>
+    </mat-card>
     <p></p>
-    <div>
-        <mat-basic-audio-player audioUrl={{feed.attachments[0].url}} title={{feed.title}} muted="muted" displayVolumeControls={{msbapDisplayVolumeControls}}
-    displayTitle={{feed.title}} displayVolumeControls={{msbapDisplayVolumeControls}} ></mat-basic-audio-player>
-    </div>
-</mat-card-content>
-</mat-card>
+<!-- </div> -->
