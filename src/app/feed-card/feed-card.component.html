@@ -6,16 +6,21 @@
                     {{feed.title}}
                 </div>
             </mat-card-title>
-            <mat-card-subtitle>
-                {{feed.author}} - {{feed.pubDate | date: 'dd-MM-yyyy'}}
+            <mat-card-subtitle class="dingo-subtitle">
+                {{feed.date_published | date: 'dd-MM-yyyy'}}
             </mat-card-subtitle>
             <img mat-card-md-image src={{feed.image}}>
         </mat-card-title-group>
         <mat-card-content>
-            {{feed.content_html}}
+            <div [innerHTML]="feed.content_html">
+            </div>
             <p></p>
-            <app-mat-dingo-player [feed]="feed"></app-mat-dingo-player>
         </mat-card-content>
+        <mat-card-actions>
+            <button mat-stroked-button (click)="play(feed)" mat-button>
+                <mat-icon>play_arrow</mat-icon>
+                Listen to {{feed.title}}</button>
+        </mat-card-actions>
     </mat-card>
     <p></p>
 <!-- </div> -->

@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {FeedService} from '../feed-service.service';
 import { FeedCollection } from '../model/FeedCollection';
+import { MatDingoPlayerComponent } from '../mat-dingo-player/mat-dingo-player.component';
 
 @Component({
   selector: 'listen',
@@ -12,9 +13,10 @@ export class ListenComponent implements OnInit {
   title = 'rollplayers';
   
   feedUrl: string = 'https://pinecast.com/jsonfeed/roll-players';
-  
-  public feeds: FeedCollection
+  @Input() dingoPlayer: MatDingoPlayerComponent;
 
+  public feeds: FeedCollection
+  
   constructor(
     public feedService: FeedService
   ){

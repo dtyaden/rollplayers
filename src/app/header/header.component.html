@@ -1,0 +1,64 @@
+<nav fxFlex class="dingo-header" class="navbar-header">
+
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <a class="dingo-button" mat-raised-button routerLink="listen">Listen</a>
+      <a class="dingo-button" mat-raised-button routerLink="about" routerLinkActive="true">About</a>
+
+      <a mat-icon-button href="https://open.spotify.com/show/321UzL81oP59RmfuVjtEBb" class="spotify dingo-icon"
+      #tooltip="matTooltip"
+          matTooltip="Follow us on Spotify!"
+          [matTooltipPosition]="position.value"
+          matTooltipHideDelay="200"
+      >
+        <fa-icon [icon]="faSpotify">
+
+        </fa-icon>
+      </a>
+      <a mat-icon-button href="https://www.facebook.com/RollPlayersWin/"
+      #tooltip="matTooltip"
+          matTooltip="Like us on Facebook!"
+          [matTooltipPosition]="position.value"
+          matTooltipHideDelay="200">
+        <fa-icon [icon]="faFacebook" class="dingo-icon facebook">
+
+        </fa-icon>
+      </a>
+      <a mat-icon-button href="https://twitter.com/RollPlayersWin">
+        <fa-icon  [icon]="faTwitter" class="dingo-icon twitter"
+        #tooltip="matTooltip"
+          matTooltip="Follow us on twitter!"
+          [matTooltipPosition]="position.value"
+          matTooltipHideDelay="200">
+
+        </fa-icon>
+      </a>
+      <a mat-icon-button href="https://play.google.com/music/m/Iaqxszalmggtk6eomgrnvqnfyry?t=Roll_Players"
+      #tooltip="matTooltip"
+          matTooltip="Listen to us on google play!"
+          [matTooltipPosition]="position.value"
+          matTooltipHideDelay="50">
+        <fa-icon  [icon]="faGooglePlay" class="dingo-icon google-play">
+
+        </fa-icon>
+      </a>
+      <a mat-icon-button href="https://play.google.com/music/m/Iaqxszalmggtk6eomgrnvqnfyry?t=Roll_Players">
+        <fa-icon  [icon]="faGoogle" class="dingo-icon google-podcasts"
+        #tooltip="matTooltip"
+          matTooltip="Subscribe to us on google-podcasts!"
+          [matTooltipPosition]="position.value"
+          matTooltipHideDelay="200">
+
+        </fa-icon>
+      </a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <!-- <mat-tab-group (selectedTabChange)="onTabChanged($event)">
+      <mat-tab label="LISTEN HERE">
+        <listen [dingoPlayer]=dingoPlayer></listen>
+      </mat-tab>
+      <mat-tab label="ABOUT" (click)="aboutClicked($event)">
+        <app-about></app-about>
+      </mat-tab>
+    </mat-tab-group> -->
+</nav>

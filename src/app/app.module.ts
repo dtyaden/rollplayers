@@ -57,6 +57,9 @@ import { MatDingoPlayerComponent } from './mat-dingo-player/mat-dingo-player.com
 import { AboutComponent } from './about/about.component';
 import { RootComponent } from './root/root.component';
 import { ListenComponent } from './listen/listen.component';
+import { HeaderComponent } from './header/header.component';
+import { BaseContentComponent } from './base-content/base-content.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -67,7 +70,9 @@ import { ListenComponent } from './listen/listen.component';
     MatDingoPlayerComponent,
     AboutComponent,
     RootComponent,
-    ListenComponent
+    ListenComponent,
+    HeaderComponent,
+    BaseContentComponent
   ],
   imports: [
     BrowserModule,
@@ -125,7 +130,8 @@ import { ListenComponent } from './listen/listen.component';
     MatTreeModule,
     PortalModule,
     ScrollingModule,
-    NgxAudioPlayerModule
+    NgxAudioPlayerModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [RootComponent]

@@ -1,0 +1,11 @@
+.dingo-player-bottom{
+    height: 200px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #2c2c2c;
+  
+}

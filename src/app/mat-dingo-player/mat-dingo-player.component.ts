@@ -9,7 +9,7 @@ import { ViewChild, ElementRef } from '@angular/core';
 })
 export class MatDingoPlayerComponent implements OnInit {
 
-  @Input() feed: Feed;
+  @Input() feed:Feed;
 
   constructor() { }
 
@@ -17,7 +17,7 @@ export class MatDingoPlayerComponent implements OnInit {
 
   msbapDisplayTitle = false; 
   msbapDisplayVolumeControls = true;
-
+  
   ngOnInit(): void {
   }
   
@@ -26,4 +26,8 @@ export class MatDingoPlayerComponent implements OnInit {
     player.player.nativeElement.volume = this.volumeValue/100;
   }
 
+  public setFeed(feed:Feed){
+    this.feed = feed;
+    console.log("feed set in dingo-player")
+  }
 }

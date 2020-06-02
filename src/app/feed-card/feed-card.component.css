@@ -20,3 +20,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: #37153b;
     color: #ffffff;
 }
+
+mat-card-subtitle{
+    color: white;
+}
+
+.dingo-subtitle{
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:link{
+    color: yellow;
+}

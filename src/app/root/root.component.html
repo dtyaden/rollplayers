@@ -1,21 +1,10 @@
-<mat-tab-group (selectedTabChange)="onTabChanged($event)">
-  <mat-tab label="LISTEN HERE">
-    <listen></listen>
-  </mat-tab>
-  <mat-tab label="ABOUT" (click)="aboutClicked($event)">
-    <app-about></app-about>
-  </mat-tab>
-</mat-tab-group>
-<!-- <mat-toolbar class="mat-app-background" class="dingo-theme">
-    <span class="dingo-span">
-        <a routerLink="/listen" routerLinkActive="active" >
-          <button class="dingo-button" mat-button>Listen</button>
-        </a>
-    </span>
-    <span class="dingo-span">
-        <a routerLink="/about" >
-          <button class="dingo-button" mat-button>About</button>
-        </a>
-    </span>
-  </mat-toolbar>
-  <router-outlet></router-outlet> -->
+
+<app-header class="header sticky">
+</app-header>
+
+<app-base-content [dingoPlayer]=dingoPlayer></app-base-content>
+
+<footer class="footer">
+  <app-mat-dingo-player #dingoPlayer></app-mat-dingo-player>
+</footer>
+

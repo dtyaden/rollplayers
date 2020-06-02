@@ -12,13 +12,6 @@ export class RootComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onTabChanged(event: any){
-    console.log("okay")
-    console.log(event)
-  }
-
-  aboutClicked(event:any){
-    console.log("about clicked")
-  }
+  
 
 }

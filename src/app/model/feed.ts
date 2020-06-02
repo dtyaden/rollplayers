@@ -9,5 +9,6 @@ export interface Feed {
     pubDate: string;
     author: string;
     content_html: string;
+    date_published: string;
 }
   

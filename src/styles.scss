@@ -12,6 +12,18 @@ body {
   float: right;
   margin: 8px;
 }
+
+.navbar-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
 @import '~@angular/material/theming';
 @include mat-core();
 $my-app-primary: mat-palette($mat-blue-grey);

@@ -6,7 +6,9 @@ import { ListenComponent } from './listen/listen.component';
 
 const routes: Routes = [
   {path: 'about', component: AboutComponent},
-  {path: 'listen', component: ListenComponent}
+  {path: 'listen', component: ListenComponent},
+  {path: '', component: ListenComponent},
+  {path: '**', redirectTo: '/listen'}
 ];
 
 @NgModule({
