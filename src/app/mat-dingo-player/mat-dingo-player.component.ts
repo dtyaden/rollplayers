@@ -1,32 +1,30 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Feed } from '../model/feed';
 import { ViewChild, ElementRef } from '@angular/core';
+import { DingoPlayerService } from '../services/dingo';
 
 @Component({
   selector: 'app-mat-dingo-player',
   templateUrl: './mat-dingo-player.component.html',
   styleUrls: ['./mat-dingo-player.component.css']
 })
-export class MatDingoPlayerComponent implements OnInit {
+export class MatDingoPlayerComponent {
 
-  @Input() feed:Feed;
+  @Input() feed: Feed;
 
-  constructor() { }
+  constructor(
+    private dingoPlayerService: DingoPlayerService
+  ) { }
 
-  volumeValue: number;
-
-  msbapDisplayTitle = false; 
+  msbapDisplayTitle = false;
   msbapDisplayVolumeControls = true;
-  
-  ngOnInit(): void {
-  }
-  
-  onChange(event: any, player: any){
-    this.volumeValue = event.value
-    player.player.nativeElement.volume = this.volumeValue/100;
+
+  onChange(event: any, player: any) {
+    this.dingoPlayerService.volumeValue = event.value
+    player.player.nativeElement.volume = this.dingoPlayerService.volumeValue / 100;
   }
 
-  public setFeed(feed:Feed){
+  public setFeed(feed: Feed) {
     this.feed = feed;
     console.log("feed set in dingo-player")
   }
