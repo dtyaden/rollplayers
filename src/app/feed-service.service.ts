@@ -16,7 +16,6 @@ export class FeedService {
     ) {}
 
    getFeedContent(url: string): Observable<FeedCollection> {
-    console.log("feed content")
     return this.http.get<any>(url)
     .pipe(map(res => new FeedCollection(res)))
    }
@@ -26,8 +25,7 @@ export class FeedService {
    }
 
    private handleError (error: any) {
-    // In a real world app, we might use a remote logging infrastructure
-    // We'd also dig deeper into the error to get a better message
+    // todo: log somewhere other than the console
     let errMsg = (error.message) ? error.message :
       error.status ? `${error.status} - ${error.statusText}` : 'Server error';
     console.error(errMsg); // log to console instead

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ListenComponent } from './listen/listen.component';
+import { FeedCardComponent } from './feed-card/feed-card.component';
 
 
 const routes: Routes = [

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Feed } from '../model/feed';
 import { MatDingoPlayerComponent } from '../mat-dingo-player/mat-dingo-player.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-feed-card',
@@ -13,15 +14,12 @@ export class FeedCardComponent implements OnInit {
 
   @Input() dingoPlayer: MatDingoPlayerComponent;
 
-  constructor() { }
+  constructor(public router:Router) { }
 
   ngOnInit(): void {
   }
 
   play(feed:Feed){
-    console.log(feed);
-    console.log("dingoPlayer:")
-    console.log(typeof this.dingoPlayer)
     this.dingoPlayer.setFeed(feed);
   }
 

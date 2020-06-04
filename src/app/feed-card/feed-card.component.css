@@ -3,9 +3,25 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+@media only screen
+and (min-width: 1px)
+{
+    .dingo-card{
+        max-width: 90%;
+    }
+}
+
+@media only screen
+and (min-width: 800px)
+{
+    .dingo-card{
+        max-width: 60%;
+    }
+}
+
 .thumbnail{
-    max-width: 100px;
-    max-Height: 100px;
+    max-width: 10%;
+    max-Height: 10%;
 }
 /* .mat-app-background{
     background-color: black;
@@ -19,6 +35,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .dingo-card{
     background: #37153b;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 mat-card-subtitle{
