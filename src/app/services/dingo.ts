@@ -8,8 +8,4 @@ export class DingoPlayerService {
 
     public volumeValue: number;
 
-    constructor() {
-        console.log('test')
-    }
-
 }
