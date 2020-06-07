@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {Feed} from './model/feed';
+import {FeedTrack} from './model/feed';
 import {map} from 'rxjs/operators';
 import { FeedCollection } from './model/FeedCollection';
 

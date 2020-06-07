@@ -1,7 +1,13 @@
 
-<div *ngIf="feed">
-  <mat-basic-audio-player [audioUrl]="feed.attachments[0].url" title={{feed.title}} [displayVolumeControls]="true"
-    [displayTitle]="true" #player></mat-basic-audio-player>
-  <mat-slider [value]="50" (change)="onChange($event, player)">
-  </mat-slider>
+
+<div *ngIf="feedCollection">
+  <app-dingo-audio-player [tracks]="tracks" #player></app-dingo-audio-player>
+  <div class="dingo-volume">
+    <button mat-icon-button>
+      <mat-icon (click)="toggleMute()">{{volumeIcon}}</mat-icon>
+    </button>
+    
+    <mat-slider [value]="dingoPlayerService.volumeValue" (change)="volumeSliderChange($event.value)">
+    </mat-slider>
+  </div>
 </div>

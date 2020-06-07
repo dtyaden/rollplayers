@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Feed } from '../model/feed';
+import { FeedTrack } from '../model/feed';
 import { MatDingoPlayerComponent } from '../mat-dingo-player/mat-dingo-player.component';
 import { Router } from '@angular/router';
 
@@ -10,17 +10,16 @@ import { Router } from '@angular/router';
 })
 export class FeedCardComponent implements OnInit {
 
-  @Input() feed: Feed;
+  @Input() feed: FeedTrack;
 
   @Input() dingoPlayer: MatDingoPlayerComponent;
 
   constructor(public router:Router) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  play(feed:Feed){
-    this.dingoPlayer.setFeed(feed);
+  play(feed:FeedTrack){
+    this.dingoPlayer.play(feed);
   }
 
 }

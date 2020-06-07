@@ -60,6 +60,7 @@ import { ListenComponent } from './listen/listen.component';
 import { HeaderComponent } from './header/header.component';
 import { BaseContentComponent } from './base-content/base-content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DingoAudioPlayerComponent } from './dingo-audio-player/dingo-audio-player.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     RootComponent,
     ListenComponent,
     HeaderComponent,
-    BaseContentComponent
+    BaseContentComponent,
+    DingoAudioPlayerComponent
   ],
   imports: [
     BrowserModule,

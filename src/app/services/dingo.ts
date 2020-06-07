@@ -6,6 +6,6 @@ import { Observable, of } from 'rxjs';
 })
 export class DingoPlayerService {
 
-    public volumeValue: number;
+    public volumeValue: number = 1;
 
 }

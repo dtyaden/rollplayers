@@ -1,26 +1,27 @@
-<!-- <div class="mat-app-background basic-container dingo-span"> -->
-    <mat-card class="dingo-card">
-        <mat-card-title-group>
-            <mat-card-title>
-                <div>
-                    {{feed.title}}
+
+    <!-- <div class="mat-app-background basic-container dingo-span"> -->
+        <mat-card class="dingo-card">
+            <mat-card-title-group>
+                <mat-card-title>
+                    <div>
+                        {{feed.title}}
+                    </div>
+                </mat-card-title>
+                <mat-card-subtitle class="dingo-subtitle">
+                    {{feed.date_published | date: 'dd-MM-yyyy'}}
+                </mat-card-subtitle>
+                <img mat-card-md-image src={{feed.image}}>
+            </mat-card-title-group>
+            <mat-card-content>
+                <div [innerHTML]="feed.content_html">
                 </div>
-            </mat-card-title>
-            <mat-card-subtitle class="dingo-subtitle">
-                {{feed.date_published | date: 'dd-MM-yyyy'}}
-            </mat-card-subtitle>
-            <img mat-card-md-image src={{feed.image}}>
-        </mat-card-title-group>
-        <mat-card-content>
-            <div [innerHTML]="feed.content_html">
-            </div>
-            <p></p>
-        </mat-card-content>
-        <mat-card-actions>
-            <button mat-stroked-button (click)="play(feed)" mat-button>
-                <mat-icon>play_arrow</mat-icon>
-                Listen to {{feed.title}}</button>
-        </mat-card-actions>
-    </mat-card>
-    <p></p>
-<!-- </div> -->
+                <p></p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-stroked-button (click)="play(feed)" mat-button>
+                    <mat-icon>play_arrow</mat-icon>
+                    Listen to {{feed.title}}</button>
+            </mat-card-actions>
+        </mat-card>
+        <p></p>
+    <!-- </div> -->

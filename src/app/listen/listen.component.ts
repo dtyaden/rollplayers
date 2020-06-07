@@ -29,6 +29,7 @@ export class ListenComponent implements OnInit {
 
   private setFeeds(feedCollection:FeedCollection){
     this.feeds = feedCollection;
+    this.dingoPlayer.setFeedCollection(feedCollection)
   }
 
   private refreshFeed(){
