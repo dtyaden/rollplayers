@@ -3,7 +3,7 @@ import { FeedTrack } from '../model/feed';
 import { ViewChild, ElementRef } from '@angular/core';
 import { DingoPlayerService } from '../services/dingo';
 import { isUndefined } from 'util';
-import { Track } from 'ngx-audio-player';
+import { Track, MatAdvancedAudioPlayerComponent } from 'ngx-audio-player';
 import { FeedCollection } from '../model/FeedCollection';
 import { MatIcon } from '@angular/material/icon';
 import { DingoAudioPlayerComponent } from '../dingo-audio-player/dingo-audio-player.component';
